@@ -22,7 +22,7 @@ const SignUp = () => {
   return (
     <div className="home-container">
       <video autoPlay muted loop playsInline className="video-bg">
-        <source src="/background1.mp4" type="video/mp4" />
+        <source src="/welcome.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 

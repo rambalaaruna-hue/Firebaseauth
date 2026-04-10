@@ -1,0 +1,93 @@
+.book-section {
+  background: #0f4a8a;   /* 🔥 dark blue */
+  padding: 60px 80px;
+  color: white;
+}
+
+.book-section h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+
+.book-section {
+  background: #0f4a8a;
+  padding: 60px 80px;
+  color: white;
+}
+
+.book-section h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.form-box {
+  background: white;
+  color: black;
+  padding: 40px;
+  width: 350px;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.form-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 15px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.form-box button {
+  width: 100%;
+  padding: 12px;
+  background: #00baf2;
+  color: white;
+  border: none;
+  border-radius: 25px;
+}
+
+
+.success-box {
+  background: white;
+  color: green;
+  padding: 40px;
+  width: 350px;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+@media (max-width: 900px) {
+  .services {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .form-box, .success-box {
+    width: 90%;
+    padding: 25px;
+  }
+
+  .service-card {
+    width: 45%;
+  }
+}

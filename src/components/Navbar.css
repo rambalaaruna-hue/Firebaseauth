@@ -1,0 +1,89 @@
+.navbar {
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;   /* 🔥 THIS IS THE MAGIC */
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+/* LEFT */
+.nav-left {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  gap: 6px;
+}
+
+.logo-img {
+  height: 45px;
+  width: auto;
+  object-fit: contain;
+}
+
+
+/* CENTER */
+.nav-center {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-center li {
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-center li:hover {
+  color: #00baf2;
+}
+
+/* RIGHT */
+.SignOut-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #00BAF2;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin-right: 40px;
+}
+
+.profile-icon {
+  background: white;
+  color: #00baf2;
+  border-radius: 50%;
+  padding: 3px 6px;
+  font-size: 12px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .nav-center {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    padding: 10px 20px;
+  }
+
+  .logo-img {
+    width: 100px;
+  }
+
+  .signin-btn {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+}

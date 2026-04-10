@@ -1,0 +1,68 @@
+.money-section {
+  background: #f5f7fa;
+  padding: 80px 40px;
+}
+
+.money-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* LEFT IMAGE */
+.money-left img {
+  width: 450px;
+}
+
+/* RIGHT CONTENT */
+.money-right {
+  max-width: 800px;
+}
+
+.money-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.money-title img {
+  width: 100px;
+}
+
+.money-right h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.money-right p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.money-right button {
+  background: #002970;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+/* 🔥 RESPONSIVENESS */
+@media (max-width: 768px) {
+  .money-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .money-left img {
+    width: 250px;
+  }
+
+  .money-right h1 {
+    font-size: 28px;
+  }
+}

@@ -1,0 +1,68 @@
+.tools-section {
+  width: 85%;
+  margin: 80px auto;
+  text-align: center;
+}
+
+.tools-section h1 {
+  font-size: 42px;
+  font-weight: 700; /* strong bold like screenshot */
+  color: #000;
+  margin-bottom: 60px;
+}
+
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.tool-card {
+  text-align: left;
+}
+
+.tool-card img {
+  width: 140px;
+  margin-bottom: 20px;
+}
+
+.tool-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.tool-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.tool-card span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #00baf2;
+  cursor: pointer;
+}
+
+
+@media (max-width: 1024px) {
+  .tools-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .tools-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tools-section h1 {
+    font-size: 30px;
+  }
+
+  .tool-card {
+    text-align: center;
+  }
+}

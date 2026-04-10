@@ -1,0 +1,59 @@
+.postpaid-section {
+  padding: 80px 100px;
+  background: #f5f7fa;
+}
+
+.postpaid-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 50px;
+  border-radius: 20px;
+  max-width:1200px;
+  margin:auto;
+}
+.icon-box img {
+   width: 150px; /* increase this */
+  height: auto;
+   right:50px; }
+
+.left {
+  width: 40%;
+}
+
+.right {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#main-image {
+  width: 500px !important;
+  height: 500px !important;
+}
+
+.learn-btn {
+  background: #00baf2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+}
+@media (max-width: 900px) {
+  .postpaid-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .main-img {
+    width: 80%;
+    max-width: 300px;
+  }
+}

@@ -1,0 +1,92 @@
+.money-travel {
+  padding: 60px 80px;
+  background: #ffffff;
+}
+
+/* ROW */
+.row-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+/* LEFT SIDE */
+.left {
+  width: 30%;
+}
+
+.logo {
+  width: 160px;
+  margin-bottom: 20px;
+}
+
+.left p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.learn {
+  color: #00baf2;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* RIGHT SIDE (IMAGES ONLY) */
+.right {
+  width: 65%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.right img {
+  width: 150px;
+  height: auto;
+  border-radius: 12px;
+  transition: transform 0.3s;
+}
+
+.right img:hover {
+  transform: translateY(-5px);
+}
+
+/* ================= RESPONSIVENESS ================= */
+
+@media (max-width: 1000px) {
+  .row-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .right {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .right img {
+    width: 130px;
+  }
+}
+
+@media (max-width: 600px) {
+  .money-travel {
+    padding: 40px 20px;
+  }
+
+  .right img {
+    width: 100px;
+  }
+
+  .logo {
+    width: 130px;
+  }
+}

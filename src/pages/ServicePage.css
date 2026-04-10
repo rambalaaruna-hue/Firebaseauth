@@ -1,0 +1,44 @@
+.service-page {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.service-page h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.form-box input {
+  width: 300px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.form-box button {
+  padding: 12px 25px;
+  background: #00baf2;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.success-box {
+  margin-top: 30px;
+  color: green;
+}
+
+/* ✅ RESPONSIVE */
+@media (max-width: 600px) {
+  .form-box input {
+    width: 90%;
+  }
+}

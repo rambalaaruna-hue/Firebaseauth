@@ -1,0 +1,76 @@
+.credit-section {
+  display: flex;
+  gap: 30px;
+  padding: 50px 80px;
+  background: #f5f7fa;
+}
+
+.credit-card {
+  flex: 1;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.credit-card h2 {
+  margin: 15px 0;
+  font-size: 42px;
+  font-weight: 700;
+}
+.credit-section {
+  display: flex;
+  gap: 30px;
+  padding: 50px 80px;
+  background: #f5f7fa;
+}
+
+.credit-card {
+  flex: 1;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.credit-card h2 {
+  margin: 15px 0;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+
+
+.credit-card p {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.credit-card img {
+  width: 100%;
+  max-width: 350px;
+}
+@media (max-width: 900px) {
+  .credit-section {
+    flex-direction: column;
+  }
+}
+
+
+
+.credit-card p {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.credit-card img {
+  width: 100%;
+  max-width: 350px;
+}
+@media (max-width: 900px) {
+  .credit-section {
+    flex-direction: column;
+  }
+}
